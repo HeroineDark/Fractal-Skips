@@ -1,0 +1,20 @@
+<OverlayData>
+    <MarkerCategory name="FracSkip" displayname="HeroineDark's Fractal Skips">
+			<MarkerCategory name="8" displayname="Underground Facility">
+				<MarkerCategory name="swift" iconFile=".\Data\markers\Swiftness.png"/>
+				<MarkerCategory name="blink" iconFile=".\Data\markers\Blink.png"/>
+				<MarkerCategory name="mario" iconFile=".\Data\markers\mario.png"/>
+				<MarkerCategory name="path" displayname="Trails" iconFile=".\Data\markers\1bauble.png" fadeNear="3500" fadeFar="4000"/>
+			</MarkerCategory>
+			
+	</MarkerCategory>
+<POIs>
+<!-- swiftness -->
+<POI MapID="953" xpos="728.443" ypos="13.7393" zpos="356.114" type="FracSkip.8.swift" GUID="X3zqol5GqEm68y20DLte1Q=="/>
+<!--Mario-->
+<POI MapID="953" xpos="715.341" ypos="16.1771" zpos="352.048" type="FracSkip.8.mario" GUID="Ek2L/8ffkkKz2hQXeSI9Ww=="/>
+<!--TP up-->
+<POI MapID="953" xpos="664.447" ypos="35.251" zpos="364.516" type="FracSkip.8.blink" GUID="ANThTNLwFE6bAbLIb90NgA=="/>
+	<Trail type="FracSkip.8.path" trailData=".\Data\scale8.trl" texture="Data\markers\1bauble.png"/>
+</POIs>
+</OverlayData>
